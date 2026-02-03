@@ -1,61 +1,70 @@
 # Most Streamed Songs on Spotify 2024
 
-📘 Also available in  [Spanish](./README.es.md)
+📘 Also available in [Spanish](./README.es.md)
 
-This dataset contains information about the most streamed songs on **Spotify** in 2024. The goal of this analysis is to explore and visualize the most relevant data in order to gain insights into music trends.
+> This dataset contains information about the most streamed songs on **Spotify** in 2024. The goal of this analysis is to explore and visualize the most relevant data in order to gain insights into music trends.
+
+---
 
 ## 📦 Libraries Used
 
--   Pandas
-    
--   Numpy
-    
--   Matplotlib
-    
--   Seaborn
-    
+| Library    | Purpose                          |
+|------------|----------------------------------|
+| Pandas     | Data manipulation & analysis     |
+| NumPy      | Numerical computations           |
+| Matplotlib | Data visualization               |
+| Seaborn    | Statistical data visualization   |
+
+---
 
 ## 🔗 Data Source
 
-[Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/most-streamed-spotify-songs-2024)
+The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/most-streamed-spotify-songs-2024).
+
+---
 
 ## 💻 Development
 
-This project was created using Jupyter Notebook and Python 3.10
+This project was built using **Jupyter Notebook** and **Python 3.10**.
 
-### Download the Project to Your Computer
+### 🖥️ Setup & Installation
 
-1.  If you want to have the repository on your computer, you can clone, fork, or download it as a **.zip** file. Use the following command with Git:
-    
+**1. Clone the repository**
 
-`cd Analisis-Canciones-Spotify-2024
-$ git clone https://github.com/nuriadevs/cd Analisis-Canciones-Spotify-2024.git` 
+```bash
+git clone https://github.com/nuriadevs/Analisis-Canciones-Spotify-2024.git
+cd Analisis-Canciones-Spotify-2024
+```
 
-2.  Once downloaded, navigate to the project folder and check the files:
-    
+**2. Create and activate a virtual environment** *(Windows)*
 
-`cd  cd Analisis-Canciones-Spotify-2024` 
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-3.  Create a virtual environment on Windows:
-    
+**3. Install dependencies**
 
-`python -m venv environment_name
-environment_name\Scripts\activate` 
+```bash
+pip install -r requirements.txt
+```
 
-4.  Install the requirements:
-    
+**4. Launch Jupyter Notebook**
 
-`pip install -r requirements.txt` 
+```bash
+jupyter notebook
+```
 
-5.  To open Jupyter Notebook, run the following command in the command prompt, or open it with Anaconda and navigate to the folder **Analisis-Canciones-Spotify-2024**:
-    
+> Alternatively, you can open Anaconda Navigator and navigate to the `Analisis-Canciones-Spotify-2024` folder.
 
-`jupyter notebook` 
+---
 
 ## 📬 Contact
 
-If you have any questions, suggestions, or just want to chat about the project, send me a message:
+If you have any questions, suggestions, or just want to chat about the project, feel free to reach out:
 
-[![Email](https://camo.githubusercontent.com/52a173d8eb1942dd9c9935c180ec74ddca5d4b1effc68328e75705d2d55aa451/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456d61696c2d4431343833363f6c6f676f3d676d61696c266c6f676f436f6c6f723d7768697465)](mailto:nuriadevs@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nuriadevs@gmail.com)
 
-### ⭐ **Did you like the project? Give it a star!** ⭐
+---
+
+⭐ **Enjoyed the project? Give it a star!** ⭐
