@@ -1,6 +1,6 @@
 # Music Data Analysis 🎵
 
-📘 Also available in [Spanish](./README.md)
+📘 Also available in [Spanish](./README.es.md)
 
 This repository contains **exercises and projects for music data analysis**. The goal is to practice manipulating, exploring, and visualizing musical data, including information about songs, artists, genres, and listening trends.
 
